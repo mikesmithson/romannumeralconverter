@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc99c19a-5109-459e-9b3e-f86027d9adfd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/RomanToArabicConverterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java" />
     </list>
     <ignored path="NextRomanNumeralConverter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanToArabicConverterTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RomanToArabicConverterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/RomanToArabicConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6315789" vertical-offset="0" max-vertical-offset="665">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <caret line="28" column="3" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,16 +93,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Converter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Converter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.5864662" vertical-offset="0" max-vertical-offset="705">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#319#336#0" expanded="true" />
                 <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,9 +123,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/RomanToArabicConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java" />
       </list>
     </option>
   </component>
@@ -625,12 +621,12 @@
       <created>1414374491694</created>
       <updated>1414374491694</updated>
       <workItem from="1414374494013" duration="356000" />
-      <workItem from="1414375055500" duration="7457000" />
+      <workItem from="1414375055500" duration="7533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7813000" />
+    <option name="totallyTimeSpent" value="7889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1128" extended-state="6" />
@@ -705,19 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#319#336#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1470">
@@ -760,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/RomanToArabicConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6315789" vertical-offset="0" max-vertical-offset="665">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="28" column="3" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -768,6 +751,19 @@
             <element signature="e#442#443#0" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5864662" vertical-offset="0" max-vertical-offset="705">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#336#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
           </folding>
         </state>
       </provider>

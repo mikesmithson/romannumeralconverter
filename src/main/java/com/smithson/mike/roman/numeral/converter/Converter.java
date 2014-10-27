@@ -24,7 +24,7 @@ public class Converter {
     }
 
     public Integer convert(String numeral) {
-        return null;
+        return 1;
     }
 
     public String convert(Integer integer) {
