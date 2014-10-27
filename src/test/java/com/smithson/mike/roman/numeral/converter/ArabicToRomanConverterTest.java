@@ -31,6 +31,11 @@ public class ArabicToRomanConverterTest {
     }
 
     @Test
+    public void convertsAnArabicNumeralTwoToRomanNumeral() throws Exception {
+        assertThat(converter.convert(2), is("II"));
+    }
+
+    @Test
     public void convertsAnArabicNumeralThreeToRomanNumeral() throws Exception {
         assertThat(converter.convert(3), is("III"));
     }
@@ -48,6 +53,16 @@ public class ArabicToRomanConverterTest {
     @Test
     public void convertsAnArabicNumeralSixToRomanNumeral() throws Exception {
         assertThat(converter.convert(6), is("VI"));
+    }
+
+    @Test
+    public void convertsAnArabicNumeralSevenToRomanNumeral() throws Exception {
+        assertThat(converter.convert(7), is("VII"));
+    }
+
+    @Test
+    public void convertsAnArabicNumeralEightToRomanNumeral() throws Exception {
+        assertThat(converter.convert(8), is("VIII"));
     }
 
 }
