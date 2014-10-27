@@ -1,6 +1,7 @@
 package com.smithson.mike.roman.numeral.converter;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -30,8 +31,18 @@ public class ArabicToRomanConverterTest {
     }
 
     @Test
-        public void convertsAnArabicNumeralThreeToRomanNumeral() throws Exception {
-            assertThat(converter.convert(3), is("III"));
-        }
+    public void convertsAnArabicNumeralThreeToRomanNumeral() throws Exception {
+        assertThat(converter.convert(3), is("III"));
+    }
+
+    @Test
+    @Ignore
+    public void convertsAnArabicNumeralFourToRomanNumeral() throws Exception {
+        assertThat(converter.convert(4), is("IV"));
+    }
+    @Test
+    public void convertsAnArabicNumeralFiveToRomanNumeral() throws Exception {
+        assertThat(converter.convert(5), is("V"));
+    }
 
 }
