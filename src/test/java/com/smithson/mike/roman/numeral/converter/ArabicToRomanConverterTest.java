@@ -25,4 +25,9 @@ public class ArabicToRomanConverterTest {
           assertThat(converter, notNullValue());
     }
 
+    @Test
+        public void convertsAnArabicNumeralOneToRomanNumeral() throws Exception {
+              assertThat(converter.convert(1), is("I"));
+        }
+
 }
