@@ -45,6 +45,7 @@ public class ArabicToRomanConverterTest {
     public void convertsAnArabicNumeralFourToRomanNumeral() throws Exception {
         assertThat(converter.convert(4), is("IV"));
     }
+
     @Test
     public void convertsAnArabicNumeralFiveToRomanNumeral() throws Exception {
         assertThat(converter.convert(5), is("V"));
@@ -64,5 +65,11 @@ public class ArabicToRomanConverterTest {
     public void convertsAnArabicNumeralEightToRomanNumeral() throws Exception {
         assertThat(converter.convert(8), is("VIII"));
     }
+
+    @Test
+    public void convertsAnArabicNumeralTenToRomanNumeral() throws Exception {
+        assertThat(converter.convert(10), is("X"));
+    }
+
 
 }

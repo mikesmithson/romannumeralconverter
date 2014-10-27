@@ -11,6 +11,12 @@ public class RomanNumeralConverter {
             result.append("V");
             integer -= 5;
         }
+
+//        if (integer >= 10) {
+//             result.append("X");
+//            integer -= 10;
+//        }
+
         for (int i = 0; i < (integer); i++) {
             result.append("I");
         }
