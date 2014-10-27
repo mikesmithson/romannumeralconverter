@@ -79,4 +79,15 @@ public class ArabicToRomanConverterTest {
     public void convertsAnArabicNumeralTwentyToRomanNumeral() throws Exception {
         assertThat(converter.convert(20), is("XX"));
     }
+
+    @Test
+    public void convertsAnArabicNumeralFortyToRomanNumeral() throws Exception {
+        assertThat(converter.convert(40), is("XL"));
+    }
+
+    @Test
+    @Ignore
+    public void convertsAnArabicNumeralFiftyToRomanNumeral() throws Exception {
+        assertThat(converter.convert(50), is("X"));
+    }
 }
