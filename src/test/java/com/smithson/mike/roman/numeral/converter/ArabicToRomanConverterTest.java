@@ -41,7 +41,6 @@ public class ArabicToRomanConverterTest {
     }
 
     @Test
-    @Ignore
     public void convertsAnArabicNumeralFourToRomanNumeral() throws Exception {
         assertThat(converter.convert(4), is("IV"));
     }

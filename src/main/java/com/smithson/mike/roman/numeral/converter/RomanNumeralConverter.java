@@ -16,8 +16,10 @@ public class RomanNumeralConverter {
             result.append("V");
             integer -= 5;
         }
-
-
+        if (integer >= 4) {
+            result.append("IV");
+            integer -= 4;
+        }
         for (int i = 0; i < (integer); i++) {
             result.append("I");
         }
