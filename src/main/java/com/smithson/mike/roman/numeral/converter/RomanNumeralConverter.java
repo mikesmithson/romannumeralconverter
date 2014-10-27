@@ -7,14 +7,13 @@ public class RomanNumeralConverter {
 
     public String convert(Integer integer) {
         StringBuilder result = new StringBuilder();
-        if (integer == 5) {
-         result.append("V");
+        if (integer >= 5) {
+            result.append("V");
+            integer -= 5;
         }
-        else {
-            for (int i = 0; i < integer; i++) {
-                result.append("I");
-            }
-       }
+        for (int i = 0; i < (integer); i++) {
+            result.append("I");
+        }
         return result.toString();
     }
 }
