@@ -7,7 +7,7 @@ public class RomanNumeralConverter {
 
     public String convert(Integer integer) {
         StringBuilder result = new StringBuilder();
-        if (integer >= 10) {
+        while (integer >= 10) {
              result.append("X");
             integer -= 10;
         }
