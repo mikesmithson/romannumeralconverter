@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * Created by mikesmithson on 10/26/14.
  */
-public class RomanNumeralConverter {
+public class Converter {
 
     private static final Map<Integer, String> ROMAN_NUMERAL_PRIMITIVES = new LinkedHashMap<Integer, String>();
 
@@ -21,6 +21,10 @@ public class RomanNumeralConverter {
         ROMAN_NUMERAL_PRIMITIVES.put(4, "IV");
         ROMAN_NUMERAL_PRIMITIVES.put(1, "I");
 
+    }
+
+    public Integer convert(String numeral) {
+        return null;
     }
 
     public String convert(Integer integer) {

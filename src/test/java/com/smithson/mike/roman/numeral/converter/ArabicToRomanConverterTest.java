@@ -12,11 +12,11 @@ import static org.junit.Assert.assertThat;
  * Created by mikesmithson on 10/26/14.
  */
 public class ArabicToRomanConverterTest {
-    private RomanNumeralConverter converter;
+    private Converter converter;
 
     @Before
     public void setUp() {
-        converter = new RomanNumeralConverter();
+        converter = new Converter();
     }
 
 
@@ -86,8 +86,7 @@ public class ArabicToRomanConverterTest {
     }
 
     @Test
-    @Ignore
     public void convertsAnArabicNumeralFiftyToRomanNumeral() throws Exception {
-        assertThat(converter.convert(50), is("X"));
+        assertThat(converter.convert(50), is("L"));
     }
 }
