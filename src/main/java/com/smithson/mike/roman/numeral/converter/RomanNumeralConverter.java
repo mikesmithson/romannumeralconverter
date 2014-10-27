@@ -6,6 +6,6 @@ package com.smithson.mike.roman.numeral.converter;
 public class RomanNumeralConverter {
 
     public String convert(Integer integer) {
-        return null;
+        return "I";
     }
 }
