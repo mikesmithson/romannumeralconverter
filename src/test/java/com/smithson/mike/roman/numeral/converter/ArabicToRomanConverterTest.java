@@ -30,8 +30,8 @@ public class ArabicToRomanConverterTest {
     }
 
     @Test
-        public void convertsAnArabicNumeralTwoToRomanNumeral() throws Exception {
-            assertThat(converter.convert(2), is("II"));
+        public void convertsAnArabicNumeralThreeToRomanNumeral() throws Exception {
+            assertThat(converter.convert(3), is("III"));
         }
 
 }
