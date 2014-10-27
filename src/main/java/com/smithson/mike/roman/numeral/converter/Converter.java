@@ -25,8 +25,11 @@ public class Converter {
 
     public Integer convert(String numeral) {
         Integer result = 0;
-        for(int i = 0; i < numeral.length() ; i++) {
+        int length = numeral.length();
+
+        while( length > 0) {
             result += 1;
+            length --;
         }
         return result;
     }

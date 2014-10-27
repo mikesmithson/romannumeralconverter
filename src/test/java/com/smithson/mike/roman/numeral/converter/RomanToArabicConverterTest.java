@@ -26,13 +26,20 @@ public class RomanToArabicConverterTest {
     }
 
     @Test
-    public void romanNumeralTwoConvertsToArabicOne() {
+    public void romanNumeralTwoConvertsToArabicTwo() {
         assertThat(converter.convert("II"), is(2));
     }
 
     @Test
-    public void romanNumeralThreeConvertsToArabicOne() {
+    public void romanNumeralThreeConvertsToArabicThree() {
         assertThat(converter.convert("III"), is(3));
     }
+
+    @Test
+    public void romanNumeralFiveConvertsToArabicFive() {
+        assertThat(converter.convert("V"), is(5));
+    }
+
+
 
 }
