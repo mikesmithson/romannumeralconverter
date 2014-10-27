@@ -2,6 +2,7 @@ package com.smithson.mike.roman.numeral.converter;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.*;
@@ -12,6 +13,11 @@ import static org.junit.Assert.*;
  */
 public class ArabicToRomanConverterTest {
     private RomanNumeralConverter converter;
+
+    @Before
+    public void setUp() {
+        converter = new RomanNumeralConverter();
+    }
 
 
     @Test

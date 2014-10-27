@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc99c19a-5109-459e-9b3e-f86027d9adfd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/romannumeralng.iml" afterPath="$PROJECT_DIR$/romannumeralng.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" />
     </list>
     <ignored path="NextRomanNumeralConverter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +38,14 @@
       <file leaf-file-name="ArabicToRomanConverterTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="1005">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.26865673" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -517,12 +513,12 @@
       <created>1414374491694</created>
       <updated>1414374491694</updated>
       <workItem from="1414374494013" duration="356000" />
-      <workItem from="1414375055500" duration="740000" />
+      <workItem from="1414375055500" duration="791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1096000" />
+    <option name="totallyTimeSpent" value="1147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1128" extended-state="6" />
@@ -602,11 +598,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.26865673" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
