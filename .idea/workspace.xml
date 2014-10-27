@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc99c19a-5109-459e-9b3e-f86027d9adfd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java" />
     </list>
     <ignored path="NextRomanNumeralConverter.iws" />
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArabicToRomanConverterTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ArabicToRomanConverterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81954885" vertical-offset="490" max-vertical-offset="1320">
-              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1320">
+              <caret line="67" column="184" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -74,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanNumeralConverter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RomanNumeralConverter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33834586" vertical-offset="0" max-vertical-offset="665">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -98,8 +97,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java" />
       </list>
     </option>
   </component>
@@ -569,12 +568,12 @@
       <created>1414374491694</created>
       <updated>1414374491694</updated>
       <workItem from="1414374494013" duration="356000" />
-      <workItem from="1414375055500" duration="4193000" />
+      <workItem from="1414375055500" duration="4295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4549000" />
+    <option name="totallyTimeSpent" value="4651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1128" extended-state="6" />
@@ -649,18 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/ArabicToRomanConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81954885" vertical-offset="490" max-vertical-offset="1320">
-          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1320">
+          <caret line="67" column="184" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
@@ -690,6 +681,14 @@
             <element signature="e#2193#2194#0" expanded="true" />
             <element signature="e#2252#2253#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/RomanNumeralConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33834586" vertical-offset="0" max-vertical-offset="665">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
