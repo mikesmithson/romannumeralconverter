@@ -1,12 +1,11 @@
 package com.smithson.mike.roman.numeral.converter;
 
-import org.hamcrest.CoreMatchers;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
+import static org.junit.Assert.assertThat;
 
 /**
  * Created by mikesmithson on 10/26/14.
@@ -22,12 +21,17 @@ public class ArabicToRomanConverterTest {
 
     @Test
     public void testThatCoverterExists() throws Exception {
-          assertThat(converter, notNullValue());
+        assertThat(converter, notNullValue());
     }
 
     @Test
-        public void convertsAnArabicNumeralOneToRomanNumeral() throws Exception {
-              assertThat(converter.convert(1), is("I"));
+    public void convertsAnArabicNumeralOneToRomanNumeral() throws Exception {
+        assertThat(converter.convert(1), is("I"));
+    }
+
+    @Test
+        public void convertsAnArabicNumeralTwoToRomanNumeral() throws Exception {
+            assertThat(converter.convert(2), is("II"));
         }
 
 }
