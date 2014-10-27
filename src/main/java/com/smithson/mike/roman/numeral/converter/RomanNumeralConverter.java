@@ -27,8 +27,9 @@ public class RomanNumeralConverter {
             integer -= 4;
         }
 
-        for (int i = 0; i < (integer); i++) {
+        while (integer >= 1) {
             result.append("I");
+            integer -= 1;
         }
         return result.toString();
     }
