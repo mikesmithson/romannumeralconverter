@@ -66,6 +66,11 @@ public class ArabicToRomanConverterTest {
     }
 
     @Test
+    public void convertsAnArabicNumeralNineToRomanNumeral() throws Exception {
+        assertThat(converter.convert(9), is("IX"));
+    }
+
+    @Test
     public void convertsAnArabicNumeralTenToRomanNumeral() throws Exception {
         assertThat(converter.convert(10), is("X"));
     }
