@@ -24,7 +24,11 @@ public class Converter {
     }
 
     public Integer convert(String numeral) {
-        return 1;
+        Integer result = 0;
+        for(int i = 0; i < numeral.length() ; i++) {
+            result += 1;
+        }
+        return result;
     }
 
     public String convert(Integer integer) {

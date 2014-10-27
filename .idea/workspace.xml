@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc99c19a-5109-459e-9b3e-f86027d9adfd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/RomanToArabicConverterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/RomanToArabicConverterTest.java" />
     </list>
     <ignored path="NextRomanNumeralConverter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,14 +81,17 @@
       <file leaf-file-name="RomanToArabicConverterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/RomanToArabicConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="28" column="3" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#442#443#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,13 +100,11 @@
       <file leaf-file-name="Converter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5864662" vertical-offset="0" max-vertical-offset="705">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.60902256" vertical-offset="0" max-vertical-offset="765">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#319#336#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -621,12 +623,12 @@
       <created>1414374491694</created>
       <updated>1414374491694</updated>
       <workItem from="1414374494013" duration="356000" />
-      <workItem from="1414375055500" duration="7533000" />
+      <workItem from="1414375055500" duration="8394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7889000" />
+    <option name="totallyTimeSpent" value="8750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1128" extended-state="6" />
@@ -743,27 +745,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/smithson/mike/roman/numeral/converter/RomanToArabicConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smithson/mike/roman/numeral/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5864662" vertical-offset="0" max-vertical-offset="705">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.60902256" vertical-offset="0" max-vertical-offset="765">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#319#336#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
           </folding>
         </state>
       </provider>
