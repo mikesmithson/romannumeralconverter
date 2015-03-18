@@ -1,12 +1,11 @@
 package com.smithson.mike.roman.numeral.converter;
 
-import org.junit.Before;
-import org.junit.Ignore;
-import org.junit.Test;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
+
+import org.junit.Before;
+import org.junit.Test;
 
 /**
  * Created by mikesmithson on 10/26/14.

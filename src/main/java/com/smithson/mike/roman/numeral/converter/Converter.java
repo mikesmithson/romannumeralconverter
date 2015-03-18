@@ -1,11 +1,7 @@
 package com.smithson.mike.roman.numeral.converter;
 
-import com.sun.tools.javac.util.Convert;
-
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * Created by mikesmithson on 10/26/14.
