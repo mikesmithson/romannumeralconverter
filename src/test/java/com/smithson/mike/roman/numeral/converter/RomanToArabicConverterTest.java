@@ -37,7 +37,4 @@ public class RomanToArabicConverterTest {
     public void romanNumeralFiveConvertsToArabicFive() {
         assertThat(converter.convert("V"), is(5));
     }
-
-
-
 }
