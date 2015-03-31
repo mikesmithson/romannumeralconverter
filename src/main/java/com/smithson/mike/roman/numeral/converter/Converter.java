@@ -21,19 +21,45 @@ public class Converter {
 		ROMAN_NUMERAL_PRIMITIVES.put(1, "I");
 		ARABIC_NUMERAL_PRIMITIVES.put("V", 5);
 		ARABIC_NUMERAL_PRIMITIVES.put("I", 1);
+		ARABIC_NUMERAL_PRIMITIVES.put("M", 1000);
+		ARABIC_NUMERAL_PRIMITIVES.put("D", 500);
+		ARABIC_NUMERAL_PRIMITIVES.put("C", 100);
+		ARABIC_NUMERAL_PRIMITIVES.put("L", 50);
+		ARABIC_NUMERAL_PRIMITIVES.put("X", 10);
+		ARABIC_NUMERAL_PRIMITIVES.put("V", 5);
+		ARABIC_NUMERAL_PRIMITIVES.put("I", 1);
+		ARABIC_NUMERAL_PRIMITIVES.put("O", 0);
 
 	}
 
-	public Integer convert(String romanNumeral) {
-		Integer result = 0;
-		char[] romanNumeralPrimitives = romanNumeral.toCharArray(); 
-		for(int i=0; i < romanNumeralPrimitives.length; i++) {
-			String romanNumeralPrimitive = new StringBuilder().append(romanNumeralPrimitives[i]).toString();
-			if (ARABIC_NUMERAL_PRIMITIVES.containsKey(romanNumeralPrimitive)) {
-				result += ARABIC_NUMERAL_PRIMITIVES.get(romanNumeralPrimitive);
+	public int convert(String romanNumerals) {
+
+		int result = 0;
+
+		char[] romanNumeralCharacters = romanNumerals.toCharArray();
+
+		char romanNumeralCharacterAhead = 'O';
+		char currentRomanNumeral;
+
+		for (int i = 0; i < romanNumeralCharacters.length; i++) {
+			currentRomanNumeral = romanNumeralCharacters[i];
+			if (i < romanNumeralCharacters.length - 1) {
+				romanNumeralCharacterAhead = romanNumeralCharacters[i + 1];
+			}
+			if(ARABIC_NUMERAL_PRIMITIVES.get(convertCharacterToString(romanNumeralCharacterAhead)) > ARABIC_NUMERAL_PRIMITIVES.get(convertCharacterToString(currentRomanNumeral))) {
+				result += ARABIC_NUMERAL_PRIMITIVES.get(convertCharacterToString(romanNumeralCharacterAhead)) 
+						- ARABIC_NUMERAL_PRIMITIVES.get(convertCharacterToString(currentRomanNumeral));
+				i++;
+				romanNumeralCharacterAhead = 'O';
+			} else {
+				result += ARABIC_NUMERAL_PRIMITIVES.get(convertCharacterToString(currentRomanNumeral));	
 			}
 		}
 		return result;
+	}
+
+	private String convertCharacterToString(char romanNumeralCharacterAhead) {
+		return new StringBuilder().append(romanNumeralCharacterAhead).toString();
 	}
 
 	public String convert(Integer arabicNumber) {
