@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.smithson.mike'
+ext.baseVersion = '1.0.0'
+ext.snapshotVersion = true
+
+version = "$baseVersion" + (snapshotVersion ? "-SNAPSHOT" : "")
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testCompile "junit:junit:4.12"
+	testCompile "org.assertj:assertj-core:1.7.1"
+}
